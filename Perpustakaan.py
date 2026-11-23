@@ -2,7 +2,6 @@
 from buku import Buku
 from penyimpanan import PenyimpananData
 
-
 class Perpustakaan:
 
     def __init__(self, penyimpanan: PenyimpananData):
