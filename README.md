@@ -16,3 +16,9 @@ Fitur :
 - Update buku
 - Hapus buku
 
+Fungsi Class :
+- aplikasi.py : mengurus antarmuka pengguna (menu dan input/output).
+- Perpustakaan.py : mengurus logika pengelolaan koleksi buku.
+- buku.py : merepresentasikan satu entitas buku beserta validasinya.
+- penyimpanan.py : mengurus pembacaan dan penulisan berkas.
+- main.py : menjadi titik masuk program.
