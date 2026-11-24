@@ -27,7 +27,7 @@ class PenyimpananData:
                 if baris.strip() == "":
                     continue
 
-                label, nilai, = baris.split(" : ", 1)
+                label, nilai = baris.split(" : ", 1)
                 label = label.strip()
                 nilai = nilai.strip()
 
