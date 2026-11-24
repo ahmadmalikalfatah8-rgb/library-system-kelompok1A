@@ -1,5 +1,4 @@
 from aplikasi import Aplikasi
-
 def main():
     app = Aplikasi()
     app.jalankan()

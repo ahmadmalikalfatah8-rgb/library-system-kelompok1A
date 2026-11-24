@@ -1,0 +1,7 @@
+Kode Buku : A001
+Judul : Pemrograman Website
+Penulis : Malik
+Penerbit : Gramedia
+Tahun Terbit : 2024
+Jumlah Buku : 1
+---

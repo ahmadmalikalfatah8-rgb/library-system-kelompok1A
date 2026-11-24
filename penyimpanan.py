@@ -17,7 +17,7 @@ class PenyimpananData:
             return[]
 
         hasil = []
-        for blok in teks.split("---"):
+        for blok in teks.split("---------------"):
             blok = blok.strip()
             if blok == "":
                 continue
@@ -57,6 +57,6 @@ class PenyimpananData:
             teks += "Penerbit : " + data["penerbit"] + "\n"
             teks += "Tahun Terbit : " + str(data["tahun_terbit"]) + "\n"
             teks += "Jumlah Buku : " + str(data["jumlah_buku"]) + "\n"
-            teks += "---\n"
+            teks += "---------------\n"
 
         self.nama_file.write_text(teks, encoding="utf-8")
