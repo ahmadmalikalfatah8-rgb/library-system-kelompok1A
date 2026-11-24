@@ -9,7 +9,7 @@ class PenyimpananData:
             self.nama_file.write_text("", encoding="utf-8")
 
     def baca_data(self):
-        if not self.nama_file.exist():
+        if not self.nama_file.exists():
             return[]
 
         teks = self.nama_file.read_text(encoding="utf-8")
@@ -57,5 +57,6 @@ class PenyimpananData:
             teks += "Penerbit : " + data["penerbit"] + "\n"
             teks += "Tahun Terbit : " + str(data["tahun_terbit"]) + "\n"
             teks += "Jumlah Buku : " + str(data["jumlah_buku"]) + "\n"
+            teks += "---\n"
 
         self.nama_file.write_text(teks, encoding="utf-8")
