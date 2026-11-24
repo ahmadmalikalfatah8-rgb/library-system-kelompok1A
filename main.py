@@ -1,5 +1,4 @@
-from penyimpanan import PenyimpananData
-from Perpustakaan import Perpustakaan
+from aplikasi import Aplikasi
 
 def main():
     app = Aplikasi()
