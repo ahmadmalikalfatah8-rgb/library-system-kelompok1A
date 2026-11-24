@@ -23,13 +23,13 @@ class Buku:
         if "judul" in data_baru and self.validasi_atribut("judul", str(data_baru["judul"])):
             self.judul = str(data_baru["judul"]).strip()
         if "penulis" in data_baru and self.validasi_atribut("penulis", str(data_baru["penulis"])):
-            self.judul = str(data_baru["penulis"]).strip()
+            self.penulis = str(data_baru["penulis"]).strip()
         if "penerbit" in data_baru and self.validasi_atribut("penerbit", str(data_baru["penerbit"])):
-            self.judul = str(data_baru["penerbit"]).strip()
-        if "tahun_terbit" in data_baru and self.validasi_atribut("tahun_terbit", str(data_baru["tahun_terbit"])):
-            self.judul = str(data_baru["tahun_terbit"]).strip()
-        if "jumlah_buku" in data_baru and self.validasi_atribut("jumlah_buku", str(data_baru["jumlah_buku"])):
-            self.judul = str(data_baru["jumlah_buku"]).strip()
+            self.penerbit = str(data_baru["penerbit"]).strip()
+        if "tahun_terbit" in data_baru and self.validasi_atribut("tahun_terbit", int(data_baru["tahun_terbit"])):
+            self.tahun_terbit = int(data_baru["tahun_terbit"])
+        if "jumlah_buku" in data_baru and self.validasi_atribut("jumlah_buku", int(data_baru["jumlah_buku"])):
+            self.jumlah_buku = int(data_baru["jumlah_buku"])
 
         return True
 
